@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./data.json"></script>
+    <script defer src="./app.js"></script>
+
+
+    <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="balance-section">
+            <div class="balance-text-container">
+                <p class="balance-text"> My balance</p>
+                <p class="balance"> $921.48</p>
+            </div>
+            <img class="image" src="./images/logo.svg" alt="logo">
+        </div>
+
+        <div class="card">
+            <h2 class="spending"> Spending - Last 7 days </h2>
+            <div class="chart">
+                <canvas id="myChart"></canvas>
+            </div>
+            <hr>
+            <div class="profit">
+                <div class="this-month">
+                    <p class="total-this-month"> Total this month</p>
+                    <p class="profit-this-month">$478.33</p>
+                </div>
+                <div class="last-month">
+                    <p class="profit-last-month"> +2.4%</p>
+                    <p class="total-last-month"> from last month</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#" target="_blank">Christos Durro</a>.
+        </div>
+    </div>
+
+</body>
+
+
+</html>

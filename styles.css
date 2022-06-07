@@ -1,0 +1,126 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #f8e9dd;
+            font-family: 'DM Sans', sans-serif;
+        }
+        
+        .container {
+            width: 344px;
+            margin: 100px auto 0;
+        }
+        
+        .balance-section {
+            background-color: #ec775f;
+            padding: 20px 22px;
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .balance-text {
+            font-size: 15px;
+            /* opacity: 0.9; */
+            color: #f8e9dd;
+        }
+        
+        .balance {
+            font-size: 24px;
+            font-weight: 700;
+            margin-top: 5%;
+        }
+        
+        .image {
+            width: 60px;
+        }
+        
+        .card {
+            background-color: white;
+            padding: 22px 0;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 1px #93867b;
+        }
+        
+        .spending {
+            color: #382314;
+            padding: 0 22px;
+        }
+        
+        .chart {
+            width: 100%;
+            height: 230px;
+        }
+        
+        #myChart {
+            padding: 0 12px 0 7px;
+        }
+        
+        hr {
+            border: none;
+            background-color: #f8e9dd;
+            margin: 20px 22px 25px;
+            height: 2px;
+            opacity: 0.8;
+        }
+        
+        .profit {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding: 0 22px;
+        }
+        
+        .total-this-month {
+            color: #93867b;
+            margin-bottom: 6px;
+            font-size: 15px;
+        }
+        
+        .profit-this-month {
+            color: #382314;
+            font-size: 29px;
+            font-weight: 700;
+        }
+        
+        .last-month {
+            text-align: end;
+            margin-left: 5px;
+        }
+        
+        .profit-last-month {
+            color: #382314;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        
+        .total-last-month {
+            color: #93867b;
+            font-size: 15px;
+        }
+        
+        .attribution {
+            font-size: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .attribution a {
+            color: #382314;
+        }
+        
+        .attribution a:hover {
+            color: #201208;
+        }
+        
+        @media screen and (min-width: 800px) {
+            .container {
+                width: 500px;
+            }
+        }
